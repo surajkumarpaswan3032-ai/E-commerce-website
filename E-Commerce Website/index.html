@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🛒My Sunshine Shop </h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<section class="products">
+    <div class="product">
+        <h3>Mobile Phone</h3>
+        <p>₹15,000</p>
+        <button onclick="addToCart('Mobile Phone',15000)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h3>Laptop</h3>
+        <p>₹50,000</p>
+        <button onclick="addToCart('Laptop',50000)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h3>Headphones</h3>
+        <p>₹2,000</p>
+        <button onclick="addToCart('Headphones',2000)">Add to Cart</button>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
